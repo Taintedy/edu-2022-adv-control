@@ -1,0 +1,6 @@
+[submodule "assignments/rcognita"]
+	path = assignments/rcognita
+	url = https://github.com/AIDynamicAction/rcognita
+[submodule "assignments/asgn-2/rcognita"]
+	path = assignments/asgn-2/rcognita
+	url = https://github.com/AIDynamicAction/rcognita
