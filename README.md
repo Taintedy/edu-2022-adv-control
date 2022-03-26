@@ -30,6 +30,9 @@ Seminar | Video |Materials |
 
 ## Assignments
 
+Click on the links down below and then click `download` to get a bundle with the corresponding archive.
+Unpack, look at the `README.md` and have fun.
+
 Assignment | Description | Due | 
 | ----- | ------ |  ------ | 
 | Assignment 1 | [Estimators](./assignments/asgn-1/asgn-1.zip) |  10.04.2022 | 
