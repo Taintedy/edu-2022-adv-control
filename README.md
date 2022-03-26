@@ -32,8 +32,8 @@ Seminar | Video |Materials |
 
 Assignment | Description | Due | 
 | ----- | ------ |  ------ | 
-| Assignment 1 | [Estimators](./assignments/asgn-1/asgn1.zip) |  10.04.2022 | 
-| Assignment 2 | [MPC](./assignments/asgn-2/asgn2.zip) | 24.04.2022 | 
+| Assignment 1 | [Estimators](./assignments/asgn-1/asgn-1.zip) |  10.04.2022 | 
+| Assignment 2 | [MPC](./assignments/asgn-2/asgn-2.zip) | 24.04.2022 | 
 | Assignment 3 | Extended Kalman Filter |  08.05.2022 |
 | Assignment 4 | Computer Vision|  15.05.2022 |
 | Final project | Topic of choice (needs approval) | Presentation at last two slots |
