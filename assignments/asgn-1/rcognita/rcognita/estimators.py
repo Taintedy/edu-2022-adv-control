@@ -14,7 +14,7 @@ import torch
 import torch.optim as optim
 import torch.nn as nn
 
-import rcognita.models as models
+import rcognita.rcognita.models as models
 
 class Estimator_RNN:
     """
