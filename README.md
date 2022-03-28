@@ -5,7 +5,7 @@ Learning materials for **Advanced control methods 2022** by AIDA Lab.
 
 Lecture | Title | Video | Materials | 
 | ----- | ------ | ----- | ------ | 
-|Lecture 1|Introduction to control systems||| 
+|Lecture 1|[Introduction to control systems](https://youtu.be/R-a1teXpf8E)||| 
 |Lecture 2|Stability and convergence||| 
 |Lecture 3|Model-predictive control||| 
 |Lecture 4|Fault tolerance||| 
