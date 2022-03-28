@@ -3,17 +3,17 @@ Learning materials for **Advanced control methods 2022** by AIDA Lab.
 
 ## Lectures
 
-Lecture | Title | Video | Materials | 
-| ----- | ------ | ----- | ------ | 
-|Lecture 1|[Introduction to control systems](https://youtu.be/R-a1teXpf8E)||| 
-|Lecture 2|Stability and convergence||| 
-|Lecture 3|Model-predictive control||| 
-|Lecture 4|Fault tolerance||| 
-|Lecture 5|Adversarial robustness||| 
-|Lecture 6|Differential privacy||| 
-|Lecture 7|Overview of modern robotics||| 
-|Lecture 8|Overview of sensor data processing||| 
-|Lecture 9|Overview of pattern recognition||| 
+Lecture | Video | Materials | 
+| ----- |  ----- | ------ | 
+|Lecture 1|[Dynamical systems](https://youtu.be/R-a1teXpf8E)| - |
+|Lecture 2|Stability and convergence|| 
+|Lecture 3|Model-predictive control|| 
+|Lecture 4|Fault tolerance||
+|Lecture 5|Adversarial robustness|| 
+|Lecture 6|Differential privacy|| 
+|Lecture 7|Overview of modern robotics|| 
+|Lecture 8|Overview of sensor data processing|| 
+|Lecture 9|Overview of pattern recognition|| 
 ## Seminars 
 
 Seminar | Video |Materials |
