@@ -7,7 +7,7 @@ Materials for the **Advanced control methods 2022** course by AIDA Lab. Both lec
 Lecture | Date | Video | Materials | 
 | ----- |  -----|  ----- | ------ | 
 | Lecture 1 | 28.03.2022|[Dynamical systems](https://youtu.be/R-a1teXpf8E)| - |
-| Lecture 2 | 29.03.2022|[Stability and convergence](https://youtu.be/Cq7stgwO5bc)| - |
+| Lecture 2 | 29.03.2022|[Stability and convergence](https://www.youtube.com/watch?v=ucn2sFBkzSw)| - |
 | Lecture 3 | 05.04.2022 |Model-predictive control|| 
 | Lecture 4 | 11.04.2022 |Fault tolerance||
 | Lecture 5 | 14.04.2022 |Adversarial robustness|| 
