@@ -20,8 +20,8 @@ Lecture | Date | Video | Materials |
 
 Seminar     | Date  | Video |Materials |
 | -----     | ------| ------ | ----- | 
-| Seminar 1 | 31.03.2022 | To appear | To appear |
-| Seminar 2 | 04.04.2022 | To appear | To appear |
+| Seminar 1 | 31.03.2022 | ----- | ----- |
+| Seminar 2 | 04.04.2022 | [Estimators](https://youtu.be/9z7Yh1QQAFI) | ----- |
 | Seminar 3 | 07.04.2022 | To appear | To appear |  
 | Seminar 4 | 12.04.2022 | To appear | To appear | 
 | Seminar 5 | 18.04.2022 | To appear | To appear | 
@@ -37,7 +37,7 @@ Unpack, look at the `README.md` and have fun.
 
 Assignment      | Description | Due | 
 | -----         | ------      |  ------ | 
-| Assignment 1  | [Estimators](./assignments/asgn-1/asgn-1.zip) |  10.04.2022 | 
+| Assignment 1  | [Estimators](./assignments/asgn-1/asgn-1.zip) |  11.04.2022 | 
 | Assignment 2  | [MPC](./assignments/asgn-2/asgn-2.zip) | 24.04.2022 | 
 | Assignment 3  | Extended Kalman Filter |  08.05.2022 |
 | Assignment 4  | Computer Vision|  15.05.2022 |
