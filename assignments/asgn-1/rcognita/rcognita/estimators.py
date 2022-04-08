@@ -21,12 +21,15 @@ class Estimator_RNN:
     Class of model estimators based on recurrent neural networks
     """
 
-    def __init__(self, dim_observation, dim_action, dim_hidden, buffer_size, model = None, Nbackprops = 1):
+    def __init__(self, dim_observation, dim_action, dim_hidden, buffer_size, model = None, Nbackprops = 1, t0=0, sampling_time=0.1):
         self.buffer_size = buffer_size
 
         self.dim_observation = dim_observation
         self.dim_action      = dim_action
         self.dim_hidden      = dim_hidden
+
+        self.ctrl_clock = t0
+        self.sampling_time = sampling_time
 
         if (model is None):
             self.model = models.ModelRNN(None, self.dim_observation, self.dim_action, self.dim_hidden)
@@ -42,11 +45,16 @@ class Estimator_RNN:
 
         self.Nbackprops = Nbackprops
 
-    def receive_sys_IO(self, observation, action):
+    def receive_sys_IO(self, t, observation, action):
         # push observation, action to buffers -- see functionality in controllers.py, line 1463
 
-        self.observation_buffer = push_vec(self.observation_buffer, observation)
-        self.action_buffer      = push_vec(self.action_buffer, action)
+        time_in_sample = t - self.ctrl_clock
+
+        if time_in_sample >= self.sampling_time:  # New sample
+            self.ctrl_clock = t
+
+            self.observation_buffer = push_vec(self.observation_buffer, observation)
+            self.action_buffer      = push_vec(self.action_buffer, action)
 
     def update_params(self):
         """

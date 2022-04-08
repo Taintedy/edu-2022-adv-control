@@ -22,7 +22,7 @@ parser.add_argument('--ctrl_mode', metavar='ctrl_mode', type=str,
                              'RQL',
                              'SQL',
                              'JACS'],
-                    default='nominal',
+                    default='manual',
                     help='Control mode. Currently available: ' +
                     '----manual: manual constant control specified by action_manual; ' +
                     '----nominal: nominal controller, usually used to benchmark optimal controllers;' +                     
@@ -68,7 +68,7 @@ parser.add_argument('--prob_noise_pow', type=float,
                     default=False,
                     help='Power of probing (exploration) noise.')
 parser.add_argument('--action_manual', type=float,
-                    default=[-5, -3], nargs='+',
+                    default=[6, 1], nargs='+',
                     help='Manual control action to be fed constant, system-specific!')
 parser.add_argument('--Nactor', type=int,
                     default=3,
