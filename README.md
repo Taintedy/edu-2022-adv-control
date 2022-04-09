@@ -1,4 +1,4 @@
-# edu-2022-adv-control
+# Advanced control methods
 
 Materials for the **Advanced control methods 2022** course by AIDA Lab. Both lectures and seminars are on **Monday, Tuesday, Thursday, 16:00 - 19:00**. The exact slots are listed below.
 
