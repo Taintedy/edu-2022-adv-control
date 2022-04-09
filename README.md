@@ -41,4 +41,4 @@ Assignment      | Description | Due |
 | Assignment 2  | [MPC](./assignments/asgn-2/asgn-2.zip) | 24.04.2022 | 
 | Assignment 3  | Extended Kalman Filter |  08.05.2022 |
 | Assignment 4  | Computer Vision|  15.05.2022 |
-| Final project | Topic of choice (needs approval) | Presentation at last two slots |
+| Final project | [Task description](./assignments/final-project-task-description.txt) | Presentation at last two slots |
