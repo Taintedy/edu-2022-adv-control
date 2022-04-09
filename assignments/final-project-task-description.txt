@@ -1,0 +1,24 @@
+Requirements for the final project:
+
+    Find or request from a course instructor a topic for the Final Project. The topic should be approved by a course instructor.
+
+    Final Project consists of a GitHub repository and a 10 min presentation at the scheduled slots
+
+    No extra report is required
+
+    The presentation should cover:
+        summary of the project (1 slide)
+        brief description of the relevant theory (1 slide)
+        description of problem studied (1-2 slides)
+        description of methods (1-2 slides)
+        results (2-3 slides), 1 slide: overview of your Github repository
+        conclusions (1 slide)
+
+    The repository should:
+
+        have a meaningful readme (that contains a link to the studied work)
+        be well-structured (docs, code, data etc.) and the structure should be described in readme
+        contain graphical materials related to the results
+        scripts to generate the graphical material
+
+Always think of a potential user when creating your repository.
