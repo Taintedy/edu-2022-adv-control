@@ -16,6 +16,7 @@ class Animator3WRobotNI_traj(visuals.Animator3WRobotNI):
     def __init__(self, objects=[], pars=[]):
         super().__init__(objects, pars)
         self.full_trajectory = []
+        self.observ_state_diff = []
 
     def animate(self, k):
         if self.is_playback:
@@ -31,6 +32,8 @@ class Animator3WRobotNI_traj(visuals.Animator3WRobotNI):
 
             t, state, observation, state_full = self.simulator.get_sim_step_data()
 
+            self.ctrl_benchmarking.receive_sys_state(self.sys._state)
+
             action = self.ctrl_selector(
                 t,
                 observation,
@@ -41,9 +44,7 @@ class Animator3WRobotNI_traj(visuals.Animator3WRobotNI):
             )
 
             self.sys.receive_action(action)
-            self.ctrl_benchmarking.receive_sys_state(self.sys._state)
             self.ctrl_benchmarking.upd_accum_obj(observation, action)
-
             stage_obj = self.ctrl_benchmarking.stage_obj(observation, action)
             accum_obj = self.ctrl_benchmarking.accum_obj_val
 
@@ -147,6 +148,7 @@ class Animator3WRobotNI_traj(visuals.Animator3WRobotNI):
 def generate_data_for_task(cost_calculator_instance):
 
     globals().update(vars((update_globals_for_test())))
+
 
     action_sqn_multiplier = 2
     sin_action_sqn = action_sqn_multiplier * np.sin(
@@ -267,7 +269,7 @@ def test_first_task_procedure(
         [ 4.89577196,  4.84884879,  0.4385422 ],
         [ 4.9138794 ,  4.85734119, -0.20137148],
         [ 4.93347526,  4.85334093, -0.8339907 ]]])
-    first_observation = [2, 2, 0.8]
+    first_observation = np.array([ 5.        ,  5.        , -2.35619449])
     action_sqn_multiplier = 2
 
     ref_robot_marker = visuals.RobotMarker(angle=first_observation[2])
@@ -383,12 +385,13 @@ def integral_grading(trajectory):
     plt.xlabel("time")
     plt.grid()
     plt.legend()
-    print(abs(integral_metric - 1.318) / 1.318 )
-    return abs(integral_metric - 1.318) / 1.318
+    print(integral_metric)
+    #print(abs(integral_metric - 1.318) / 1.318 )
+    return abs(3.204 - integral_metric) / 3.204
 
 
 def final_grade(g1, g2):
-    final_grade = (g1 == 1) * 60 + ceil(max((1 - g2),0) * 40) 
+    final_grade = min((g1 == 1) * 60 + ceil(max((1 - g2),0) * 40), 100)
     display(Markdown(f"<strong> Your grade is: {final_grade}</strong>"))
     if final_grade > 95:
         display(Markdown(f"<text style=color:blue> Perfect! </text>"))
@@ -540,7 +543,8 @@ if not isinstance(args.state_init[0], int):
 
 
 def update_globals_for_test(args=args):
-    args.state_init = np.array(args.state_init)
+    print("kek")
+    args.state_init = np.array([2, 2, 0.8])
     args.action_manual = np.array(args.action_manual)
     dim_state = 3
     args.dim_state = dim_state
