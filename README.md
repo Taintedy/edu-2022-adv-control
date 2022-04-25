@@ -12,9 +12,9 @@ Lecture | Date | Video | Materials |
 | Lecture 4 | 11.04.2022 |Fault tolerance||
 | Lecture 5 | 14.04.2022 |Adversarial robustness|| 
 | Lecture 6 | 19.04.2022 |Differential privacy|| 
-| Lecture 7 | 25.04.2022 |Overview of modern robotics|| 
-| Lecture 8 | 28.04.2022 |Overview of sensor data processing|| 
-| Lecture 9 | 16.05.2022 |Overview of pattern recognition|| 
+| Lecture 7 | 25.04.2022 |Overview of sensor data processing|| 
+| Lecture 8 | 28.04.2022 |Overview of pattern recognition|| 
+| Lecture 9 | 16.05.2022 |Overview of modern robotics|| 
 
 ## Seminars 
 
