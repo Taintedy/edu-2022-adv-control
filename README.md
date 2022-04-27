@@ -1,4 +1,4 @@
-# edu-2022-adv-control
+# Advanced control methods
 
 Materials for the **Advanced control methods 2022** course by AIDA Lab. Both lectures and seminars are on **Monday, Tuesday, Thursday, 16:00 - 19:00**. The exact slots are listed below.
 
@@ -12,9 +12,9 @@ Lecture | Date | Video | Materials |
 | Lecture 4 | 11.04.2022 |Fault tolerance||
 | Lecture 5 | 14.04.2022 |Adversarial robustness|| 
 | Lecture 6 | 19.04.2022 |Differential privacy|| 
-| Lecture 7 | 25.04.2022 |Overview of modern robotics|| 
-| Lecture 8 | 28.04.2022 |Overview of sensor data processing|| 
-| Lecture 9 | 16.05.2022 |Overview of pattern recognition|| 
+| Lecture 7 | 25.04.2022 |Overview of sensor data processing|| 
+| Lecture 8 | 28.04.2022 |Overview of pattern recognition|| 
+| Lecture 9 | 16.05.2022 |Overview of modern robotics|| 
 
 ## Seminars 
 
@@ -41,4 +41,4 @@ Assignment      | Description | Due |
 | Assignment 2  | [MPC](./assignments/asgn-2/asgn-2.zip) | 24.04.2022 | 
 | Assignment 3  | Extended Kalman Filter |  08.05.2022 |
 | Assignment 4  | Computer Vision|  15.05.2022 |
-| Final project | Topic of choice (needs approval) | Presentation at last two slots |
+| Final project | [Task description](./assignments/final-project-task-description.txt) | Presentation at last two slots |
