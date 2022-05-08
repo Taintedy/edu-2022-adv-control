@@ -12,7 +12,7 @@ Lecture | Date | Video | Materials |
 | Lecture 4 | 11.04.2022 |Fault tolerance||
 | Lecture 5 | 14.04.2022 |Adversarial robustness|| 
 | Lecture 6 | 19.04.2022 |Differential privacy|| 
-| Lecture 7 | 25.04.2022 |Overview of sensor data processing|| 
+| Lecture 7 | 25.04.2022 |[Sensor data processing](https://youtu.be/P-ACsbrfWcQ)|[Slides](./lectures/lec-7/acm-2022-lec-7.pdf)| 
 | Lecture 8 | 28.04.2022 |Overview of pattern recognition|| 
 | Lecture 9 | 16.05.2022 |Overview of modern robotics|| 
 
