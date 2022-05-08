@@ -27,7 +27,7 @@ Seminar     | Date  | Video |Materials |
 | Seminar 5 | 18.04.2022 | To appear | To appear | 
 | Seminar 6 | 21.04.2022 | To appear | To appear |
 | Seminar 7 | 26.04.2022 | To appear | To appear | 
-| Seminar 8 | 12.05.2022 | To appear | To appear | 
+| Seminar 8 | 12.05.2022 | [Sensor data processing](https://youtu.be/TKnvRyMqSI4) | [Notebook](./seminars/sem-8/acm-2022-sem8-vision.ipynb) | 
 | Seminar 9 | 17.05.2022 | To appear | To appear | 
 
 ## Assignments
