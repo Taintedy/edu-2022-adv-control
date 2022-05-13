@@ -27,7 +27,7 @@ Seminar     | Date  | Video |Materials |
 | Seminar 5 | 18.04.2022 | To appear | To appear | 
 | Seminar 6 | 21.04.2022 | To appear | To appear |
 | Seminar 7 | 26.04.2022 | To appear | To appear | 
-| Seminar 8 | 12.05.2022 | To appear | To appear | 
+| Seminar 8 | 12.05.2022 | [Sensor data processing](https://youtu.be/TKnvRyMqSI4) | [Notebook](./seminars/sem-8/acm-2022-sem8-vision.ipynb) | 
 | Seminar 9 | 17.05.2022 | To appear | To appear | 
 
 ## Assignments
@@ -40,5 +40,5 @@ Assignment      | Description | Due |
 | Assignment 1  | [Estimators](./assignments/asgn-1/asgn-1.zip) |  12.04.2022 | 
 | Assignment 2  | [MPC](./assignments/asgn-2/asgn-2.zip) | 24.04.2022 | 
 | Assignment 3  | Extended Kalman Filter |  08.05.2022 |
-| Assignment 4  | Computer Vision|  15.05.2022 |
+| Assignment 4  | [Computer Vision](./assignments/asgn-4/asgn-4.zip)|  18.05.2022 |
 | Final project | [Task description](./assignments/final-project-task-description.txt) | Presentation at last two slots |
